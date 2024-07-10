@@ -2277,3 +2277,17 @@ button,
       width: 54px; /* Adjust as needed */
       height: 54px; /* Adjust as needed */
   }
+
+  .project-header {
+    color: #333; /* Change text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add some padding */
+    display: inline-block; /* Allow setting width and height */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: all 0.2s ease-in-out; /* Smooth hover transition */
+  }
+  
+  .project-header:hover {
+    background-color: #eee; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+  }
