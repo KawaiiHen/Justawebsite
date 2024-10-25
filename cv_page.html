@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CVs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .cv-container {
+            text-align: center;
+            max-width: 500px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .cv-link {
+            font-size: 18px;
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .cv-link:hover {
+            color: #0056b3;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <h1>My Resumes</h1>
+        <p>Please choose a CV to view:</p>
+        <a href="https://drive.google.com/file/d/1NOh3tyNP4Zq-7YupTB95j5VFB3EWCj8_/view?usp=drive_link" target="_blank" class="cv-link">
+            <i class="fas fa-file-pdf"></i> AI/ML CV
+        </a>
+        <a href="https://drive.google.com/file/d/17GTZi3aWhj_8vo2FGkxUhEMxVpvE6P7N/view?usp=drive_link" target="_blank" class="cv-link">
+            <i class="fas fa-file-pdf"></i> Data Science CV (Pending)
+        </a>
+        <a href="https://drive.google.com/file/d/1HXL1kn4TfgTD14Dln2rs7MGQ0q3OGOc0/view?usp=drive_link" target="_blank" class="cv-link">
+            <i class="fas fa-file-pdf"></i> Business Intelligence CV
+        </a>
+
+
+        
+        <!-- Back Button -->
+        <a href="javascript:history.back()" class="back-button"><i class="fas fa-arrow-left"></i> Back to My Website</a>
+    </div>
+</body>
+</html>
